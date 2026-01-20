@@ -191,7 +191,7 @@ with st.sidebar:
     with col1:
         year_from = st.selectbox(
             "시작",
-            options=list(range(current_year, 1999, -1)),
+            options=list(range(current_year, 1969, -1)),
             index=10,
             label_visibility="collapsed"
         )
@@ -431,12 +431,12 @@ st.divider()
 st.markdown("""
 <div style="text-align: center; color: #666; padding: 1rem 0;">
     <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 0.5rem;">
-        🔑 Key-Paper Helper v3.5
+        🔑 Key-Paper Helper v3.6
     </div>
     <div style="font-size: 0.9rem; color: #888; margin-bottom: 0.8rem;">
         Powered by OpenAlex API | by 대학원생 MJ 🎓
     </div>
-    <div style="font-size: 1rem; font-style: italic; color: #999; margin-bottom: 0.3rem;">
+    <div style="font-size: 0.85rem; color: #aaa;">
         "이 키워드로 뭘 먼저 읽어야 하지...?"
     </div>
     <div style="font-size: 0.85rem; color: #aaa;">
